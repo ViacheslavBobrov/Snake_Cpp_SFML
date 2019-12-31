@@ -153,17 +153,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="Segment.cpp" />
-    <ClCompile Include="Snake.cpp" />
-    <ClCompile Include="Target.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Segment.h" />
-    <ClInclude Include="Snake.h" />
-    <ClInclude Include="Target.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
