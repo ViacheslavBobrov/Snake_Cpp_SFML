@@ -1,5 +1,7 @@
 #include "Segment.h"
 
+using namespace sf;
+
 Segment::Segment(float x, float y, Texture& texture)
 {
 	shape.setTexture(texture);

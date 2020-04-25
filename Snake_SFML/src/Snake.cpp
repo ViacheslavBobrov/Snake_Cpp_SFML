@@ -1,5 +1,7 @@
 #include "Snake.h"
 
+using namespace sf;
+
 Snake::Snake() :segmentTexture()
 {
 	segmentTexture.loadFromFile("Textures/body.jpg");

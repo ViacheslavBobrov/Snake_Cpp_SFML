@@ -1,5 +1,6 @@
 #include "Target.h"
 
+using namespace sf;
 
 Target::Target(void): image_files{ "Diamond circle.gif", "Emerald circle.gif", "Ruby heart.gif",
 		"Yellow square.gif","Sapphire circle.gif","Purple heart.gif","Emerald square.gif","Orange circle.gif" }

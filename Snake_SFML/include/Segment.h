@@ -1,18 +1,17 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 
-using namespace sf;
 
-class Segment : public Drawable
+class Segment : public sf::Drawable
 {
 private:
-	Sprite shape;
+	sf::Sprite shape;
 public:
-	Segment(float x, float y, Texture& texture);
+	Segment(float x, float y, sf::Texture& texture);
 
-	Vector2f getPosition();
+	sf::Vector2f getPosition();
 
-	void setPosition(Vector2f position);
+	void setPosition(sf::Vector2f position);
 
-	void draw(RenderTarget& target, RenderStates states) const;
+	void draw(sf::RenderTarget& target, sf::RenderStates states) const;
 };

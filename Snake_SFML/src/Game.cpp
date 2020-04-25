@@ -3,6 +3,10 @@
 #include "Snake.h"
 #include "Target.h"
 
+using namespace sf;
+using namespace std;
+
+
 class Game
 {
 private:

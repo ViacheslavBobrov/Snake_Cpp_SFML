@@ -2,14 +2,12 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 
-using namespace sf;
-using namespace std;
 
-class Target : public Drawable
+class Target : public sf::Drawable
 {
 private:
-	Sprite targetSprite;
-	Texture targetTexture;
+	sf::Sprite targetSprite;
+	sf::Texture targetTexture;
 	string image_files[8];
 
 public:
@@ -19,9 +17,9 @@ public:
 
 	void changeTexture();
 
-	void draw(RenderTarget& target, RenderStates states) const;
+	void draw(sf::RenderTarget& target, sf::RenderStates states) const;
 
-	Vector2f getPosition();
+	sf::Vector2f getPosition();
 
 };
 
